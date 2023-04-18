@@ -43,7 +43,7 @@ if [[ $yesno =~ "Y"|"y" ]]; then
     mv v2ray web
     read -rp "请设置UUID（如无设置则使用脚本默认的）：" uuid
     if [[ -z $uuid ]]; then
-        uuid="8d4a8f5e-c2f7-4c1b-b8c0-f8f5a9b6c384"
+        uuid="b2438cc6-7cd9-458c-9d77-24721b4d6832"
     fi
     rm -f config.json
     cat << EOF > config.json
